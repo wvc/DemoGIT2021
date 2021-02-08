@@ -13,10 +13,8 @@ public class Main {
         personList.add(new Person("Toon keymeulen"));
         personList.add(new Person("Brecht Opstaele"));
         personList.add(new Person("Branko Wauters"));
-        personList.add(new Person("Evelyn De Smet"));
         personList.add(new Person("Bryan Coulier"));
         personList.add(new Person("Tony Wauters"));
-        personList.add(new Person("Veerle Taleman"));
         personList.add(new Person("Tibo Verdonck"));
         personList.add(new Person("Robbe De Groeve"));
         personList.add(new Person("Niels Van Landschoot"));
@@ -37,6 +35,7 @@ public class Main {
 
         Group groep6 = new Group("groep 6");
         groep6.addMember(new Person("Evelyn De Smet"));
+        groep6.addMember(new Person("Veerle Taleman"));
 
         groups.add(adminGroup);
 
