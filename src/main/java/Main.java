@@ -50,12 +50,14 @@ public class Main {
         group_2.addMember(new Person("Martijn Vanderschelden"));
         group_2.addMember(new Person("Emile Combes"));
 
-        groups.addAll(Arrays.asList(adminGroup,group1,group_2,group7));
-
         Group groep3 = new Group("groep 3");
         groep3.addMember(new Person("Lien Vermeulen"));
         groep3.addMember(new Person("Thomas Vander Beke"));
         groep3.addMember(new Person("Brecht Opstaele"));
+
+        groups.addAll(Arrays.asList(adminGroup,group1,group_2,groep3,group7));
+
+
 
         for(Group g : groups) {
             g.sayHi();
