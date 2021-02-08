@@ -10,6 +10,7 @@ public class Main {
         personList.add(new Person("Pieter Smet"));
         personList.add(new Person("Wim Vancroonenburg"));
         personList.add(new Person("Arne Hellin"));
+        personList.add(new Person("Brecht Opstaele"));
         personList.add(new Person("Toon keymeulen"));
         personList.add(new Person("Brecht Opstaele"));
         personList.add(new Person("Branko Wauters"));
@@ -17,11 +18,13 @@ public class Main {
         personList.add(new Person("Bryan Coulier"));
         personList.add(new Person("Tony Wauters"));
         personList.add(new Person("Veerle Taleman"));
+        personList.add(new Person("Tibo Verdonck"));
         personList.add(new Person("Robbe De Groeve"));
         personList.add(new Person("Niels Van Landschoot"));
         personList.add(new Person("Sander De Sutter"));
         personList.add(new Person("Ute Naessens"));
         personList.add(new Person("Lien Vermeulen"));
+        personList.add(new Person("Emile Combes"));
         for(Person person : personList) {
             person.sayHi();
         }
