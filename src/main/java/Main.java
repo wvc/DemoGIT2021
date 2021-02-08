@@ -60,8 +60,12 @@ public class Main {
         groep3.addMember(new Person("Thomas Vander Beke"));
         groep3.addMember(new Person("Brecht Opstaele"));
 
-        groups.addAll(Arrays.asList(adminGroup,group1,group_2,groep3,group7));
+        Group groep5 = new Group("Groep 5");
+        groep5.addMember(new Person("Bryan Coulier"));
+        groep5.addMember(new Person("Branko Wauters"));
+        groups.add(groep5);
 
+        groups.addAll(Arrays.asList(adminGroup,group1,group_2,groep3,groep4,groep5,group7));
 
 
         for(Group g : groups) {
