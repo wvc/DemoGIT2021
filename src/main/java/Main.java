@@ -9,6 +9,7 @@ public class Main {
 
         personList.add(new Person("Wim Vancroonenburg"));
         personList.add(new Person("Arne Hellin"));
+        personList.add(new Person("Brecht Opstaele"));
 
         for(Person person : personList) {
             person.sayHi();
