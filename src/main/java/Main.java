@@ -23,7 +23,6 @@ public class Main {
         personList.add(new Person("Niels Van Landschoot"));
         personList.add(new Person("Sander De Sutter"));
         personList.add(new Person("Ute Naessens"));
-        personList.add(new Person("Lien Vermeulen"));
         personList.add(new Person("Emile Combes"));
         personList.add(new Person("Martijn Vanderschelden"));
         personList.add(new Person("Thomas Vander Beke"));
@@ -52,6 +51,11 @@ public class Main {
         group_2.addMember(new Person("Emile Combes"));
 
         groups.addAll(Arrays.asList(adminGroup,group1,group_2,group7));
+
+        Group groep3 = new Group("groep 3");
+        groep3.addMember(new Person("Lien Vermeulen"));
+        groep3.addMember(new Person("Thomas Vander Beke"));
+        groep3.addMember(new Person("Brecht Opstaele"));
 
         for(Group g : groups) {
             g.sayHi();
