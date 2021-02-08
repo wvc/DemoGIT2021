@@ -41,6 +41,7 @@ public class Main {
 
         Group groep3 = new Group("groep 3");
         groep3.addMember(new Person("Lien Vermeulen"));
+        groep3.addMember(new Person("Thomas Vander Beke"));
         groep3.addMember(new Person("Brecht Opstaele"));
 
         for(Group g : groups) {
