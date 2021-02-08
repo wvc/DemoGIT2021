@@ -19,7 +19,6 @@ public class Main {
         personList.add(new Person("Veerle Taleman"));
         personList.add(new Person("Tibo Verdonck"));
         personList.add(new Person("Robbe De Groeve"));
-        personList.add(new Person("Niels Van Landschoot"));
         personList.add(new Person("Sander De Sutter"));
         personList.add(new Person("Ute Naessens"));
         personList.add(new Person("Lien Vermeulen"));
@@ -35,10 +34,12 @@ public class Main {
         Group adminGroup = new Group("Admin");
         adminGroup.addMember(new Person("Pieter Smet"));
 
-
+        Group group1 = new Group("Group 1");
+        group1.addMember(new Person("Niels Van Landschoot"));
 
 
         groups.add(adminGroup);
+        groups.add(group1);
 
         for(Group g : groups) {
             g.sayHi();
