@@ -35,8 +35,8 @@ public class Main {
         Group adminGroup = new Group("Admin");
         adminGroup.addMember(new Person("Pieter Smet"));
 
-
-
+        Group groep6 = new Group("groep 6");
+        groep6.addMember(new Person("Evelyn De Smet"));
 
         groups.add(adminGroup);
 
