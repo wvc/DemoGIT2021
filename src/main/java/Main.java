@@ -12,6 +12,8 @@ public class Main {
         personList.add(new Person("Arne Hellin"));
         personList.add(new Person("Brecht Opstaele"));
         personList.add(new Person("Branko Wauters"));
+        personList.add(new Person("Bryan Coulier"));
+        personList.add(new Person("Tony Wauters"));
         personList.add(new Person("Veerle Taleman"));
         personList.add(new Person("Tibo Verdonck"));
         personList.add(new Person("Robbe De Groeve"));
