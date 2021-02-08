@@ -7,7 +7,6 @@ public class Main {
     public static void main(String... args) {
         List<Person> personList = new ArrayList<>();
 
-        personList.add(new Person("Pieter Smet"));
         personList.add(new Person("Wim Vancroonenburg"));
         personList.add(new Person("Arne Hellin"));
         personList.add(new Person("Brecht Opstaele"));
@@ -30,5 +29,20 @@ public class Main {
         for(Person person : personList) {
             person.sayHi();
         }
+
+        List<Group> groups = new ArrayList<>();
+
+        Group adminGroup = new Group("Admin");
+        adminGroup.addMember(new Person("Pieter Smet"));
+
+
+
+
+        groups.add(adminGroup);
+
+        for(Group g : groups) {
+            g.sayHi();
+        }
+
     }
 }
