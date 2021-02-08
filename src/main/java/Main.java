@@ -8,6 +8,7 @@ public class Main {
         List<Person> personList = new ArrayList<>();
 
         personList.add(new Person("Wim Vancroonenburg"));
+        personList.add(new Person("Arne Hellin"));
 
         for(Person person : personList) {
             person.sayHi();
