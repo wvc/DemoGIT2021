@@ -19,6 +19,8 @@ public class Main {
         personList.add(new Person("Niels Van Landschoot"));
         personList.add(new Person("Sander De Sutter"));
         personList.add(new Person("Emile Combes"));
+        personList.add(new Person("Lien Vermeulen"));
+
         for(Person person : personList) {
             person.sayHi();
         }
