@@ -8,7 +8,6 @@ public class Main {
         List<Person> personList = new ArrayList<>();
 
         personList.add(new Person("Wim Vancroonenburg"));
-        personList.add(new Person("Arne Hellin"));
         personList.add(new Person("Brecht Opstaele"));
         personList.add(new Person("Toon keymeulen"));
         personList.add(new Person("Brecht Opstaele"));
@@ -36,6 +35,7 @@ public class Main {
 
         Group group1 = new Group("Group 1");
         group1.addMember(new Person("Niels Van Landschoot"));
+        group1.addMember(new Person("Arne Hellin"));
 
 
         groups.add(adminGroup);
