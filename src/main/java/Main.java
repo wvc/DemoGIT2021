@@ -10,7 +10,6 @@ public class Main {
         personList.add(new Person("Pieter Smet"));
         personList.add(new Person("Wim Vancroonenburg"));
         personList.add(new Person("Arne Hellin"));
-        personList.add(new Person("Brecht Opstaele"));
         personList.add(new Person("Branko Wauters"));
         personList.add(new Person("Lien Vermeulen"));
         personList.add(new Person("Evelyn De Smet"));
@@ -19,7 +18,7 @@ public class Main {
         personList.add(new Person("Veerle Taleman"));
         personList.add(new Person("Robbe De Groeve"));
         personList.add(new Person("Niels Van Landschoot"));
-
+        personList.add(new Person("Sander De Sutter"));
         for(Person person : personList) {
             person.sayHi();
         }
