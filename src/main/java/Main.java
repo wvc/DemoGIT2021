@@ -12,6 +12,7 @@ public class Main {
         personList.add(new Person("Arne Hellin"));
         personList.add(new Person("Brecht Opstaele"));
         personList.add(new Person("Branko Wauters"));
+        personList.add(new Person("Veerle Taleman"));
         personList.add(new Person("Robbe De Groeve"));
 
         for(Person person : personList) {
