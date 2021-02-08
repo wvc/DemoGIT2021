@@ -38,9 +38,9 @@ public class Main {
         Group group_2 = new Group(("groep 2"));
         group_2.addMember(new Person("Toon keymeulen"));
         group_2.addMember(new Person("Martijn Vanderschelden"));
+        group_2.addMember(new Person("Emile Combes"));
 
         groups.add(adminGroup);
-
 
         for(Group g : groups) {
             g.sayHi();
