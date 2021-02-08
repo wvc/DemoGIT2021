@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 import java.util.StringJoiner;
 
@@ -50,7 +51,7 @@ public class Main {
         group_2.addMember(new Person("Martijn Vanderschelden"));
         group_2.addMember(new Person("Emile Combes"));
 
-        groups.add(adminGroup);
+        groups.addAll(Arrays.asList(adminGroup,group1,group_2,group7));
 
         for(Group g : groups) {
             g.sayHi();
