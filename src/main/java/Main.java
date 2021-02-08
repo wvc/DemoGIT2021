@@ -24,7 +24,7 @@ public class Main {
         personList.add(new Person("Ute Naessens"));
         personList.add(new Person("Emile Combes"));
         personList.add(new Person("Martijn Vanderschelden"));
-        personList.add(new Person("Thomas Vander Beke"));
+
         for(Person person : personList) {
             person.sayHi();
         }
@@ -41,6 +41,7 @@ public class Main {
 
         Group groep3 = new Group("groep 3");
         groep3.addMember(new Person("Lien Vermeulen"));
+        groep3.addMember(new Person("Thomas Vander Beke"));
 
         for(Group g : groups) {
             g.sayHi();
